@@ -1,0 +1,28 @@
+
+
+//---we have to make splitwise--------//
+
+//1)User can create a group
+//2)Subscribe,unsubscribe and recieve the update to any group
+//3)He should able to create a transaction
+//4)Equal distribution
+//5)List of user having unsettled transaction
+//6)Reminder
+
+
+//---Actors----------//
+1)User
+
+
+//------Classes------//
+1)User
+2)Transaction
+  -peerToPeerTransaction
+  -peerToGroupTransaction
+3)Group
+4)Distribution
+  -Equal Distribution
+  -Customized Distribution
+
+5)SplitWiseSystem
+
