@@ -17,7 +17,7 @@ public class Test {
         g1.registerUSer(tushar);
         g1.registerUSer(ashu);
 
-        //---hello---//
+
         tribhuvan.createPtoGroupTransaction(g1,300);
 
         g1.removeUSer(tushar);
