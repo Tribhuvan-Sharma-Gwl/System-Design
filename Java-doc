@@ -1,0 +1,53 @@
+Java
+1)How to access char of a string in java?
+-s.charAt(i)
+-s.length()
+
+2)How to take Hash set in java?
+-HashSet<Integer>s=new HashSet<>();
+-s.contains(nums[i])
+-s.add(nums[i]);
+
+3)How to take max of 2 numbers
+-Math.max(num1,num2);
+
+4)while loop
+-same as cpp
+
+5)How to sort an array?
+-int []arr=new int[26]
+-Arrays.sort(nums);
+
+6)How to take Hash map in java?
+-HashMap<Integer,Integer>m=new HashMap<>();
+-m.containsKey(target-nums[i])
+-m.get(target-nums[i])
+-m.put(nums[i],i);
+
+7)List in java
+-it is similar to vector it can dynamically change its size
+-List<String>temp=new ArrayList<>();
+- temp.add(strs[i]);
+-List<List<String>>ans=new ArrayList<>();
+-ans.get(i-1).get(j-1)——to access element of 2d list
+
+
+8)How to iterate over hashMap
+-for (Map.Entry<String, List<String>> entry : m.entrySet()) {
+     System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+  }
+
+9)How to split the string from a character and replace a character
+-String[] parts=emails[i].split("@");
+-String[] first=parts[0].split("\\+");
+-s.add(first[0].replace(".","")+"@"+parts[1]);
+
+10)How to use stack in java?
+-Stack<Integer> s = new Stack<Integer>();
+-s.empty()
+-s.peek()
+-s.pop()
+-s.push(nums2[i]);
+
+
+
